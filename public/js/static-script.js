@@ -263,8 +263,9 @@ function closeGalleryModal() {
 
 function switchImage(index) {
     const mainImage = document.getElementById('mainGalleryImage');
-    const carName = document.getElementById('carName').textContent;
-    const currentCar = carsData.find(c => c.name === carName);
+    const modal = document.getElementById('galleryModal');
+    const carId = parseInt(modal.getAttribute('data-car-id'));
+    const currentCar = carsData.find(c => c.id === carId);
     
     if (currentCar) {
         const allImages = [currentCar.mainImage, ...currentCar.gallery];
