@@ -223,7 +223,13 @@ function openGalleryModal(car) {
     const carSpecs = document.getElementById('carSpecs');
     const thumbnails = document.querySelectorAll('.thumbnail');
 
+    // Store car ID for later reference
+    modal.setAttribute('data-car-id', car.id);
+
     mainImage.src = car.mainImage;
+    mainImage.onerror = function() {
+        this.src = 'https://via.placeholder.com/400x300?text=Car';
+    };
     carName.textContent = car.name;
     carSpecs.textContent = car.specs;
 
@@ -257,12 +263,16 @@ function closeGalleryModal() {
 
 function switchImage(index) {
     const mainImage = document.getElementById('mainGalleryImage');
-    const currentCar = carsData.find(c => c.name === document.getElementById('carName').textContent);
+    const carName = document.getElementById('carName').textContent;
+    const currentCar = carsData.find(c => c.name === carName);
     
     if (currentCar) {
         const allImages = [currentCar.mainImage, ...currentCar.gallery];
         if (allImages[index]) {
             mainImage.src = allImages[index];
+            mainImage.onerror = function() {
+                this.src = 'https://via.placeholder.com/400x300?text=Car';
+            };
         }
     }
 
