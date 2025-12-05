@@ -1,0 +1,124 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Renault Clio 5",
+      "brand": "Renault",
+      "category": "Essence",
+      "mainImage": "/images/cars/Clio 5 Gris Schiste/main.jpeg",
+      "gallery": [
+        "/images/cars/Clio 5 Gris Schiste/gallery-1.jpeg",
+        "/images/cars/Clio 5 Gris Schiste/gallery-2.jpeg"
+      ],
+      "specs": "Automatique Modèle 2025 Gris Schiste"
+    },
+    {
+      "id": 2,
+      "name": "Renault Clio 5",
+      "brand": "Renault",
+      "category": "Diesel",
+      "mainImage": "/images/cars/Clio 5 Bleu Céladon/main.jpeg",
+      "gallery": [
+        "/images/cars/Clio 5 Bleu Céladon/gallery-1.jpeg",
+        "/images/cars/Clio 5 Bleu Céladon/gallery-2.jpeg"
+      ],
+      "specs": "Manuelle Modèle 2021 Bleu Céladon"
+    },
+    {
+      "id": 3,
+      "name": "Renault Clio 5",
+      "brand": "Renault",
+      "category": "Diesel",
+      "mainImage": "/images/cars/Clio 5 Bleu Iron/main.jpeg",
+      "gallery": [
+        "/images/cars/Clio 5 Bleu Iron/gallery-1.jpeg",
+        "/images/cars/Clio 5 Bleu Iron/gallery-2.jpeg"
+      ],
+      "specs": "Manuelle Modèle 2022 Bleu Iron"
+    },
+    {
+      "id": 4,
+      "name": "Dacia Logan",
+      "brand": "Dacia",
+      "category": "Essence",
+      "mainImage": "/images/cars/Dacia Logan Gris  Schiste/main.jpeg",
+      "gallery": [
+        "/images/cars/Dacia Logan Gris  Schiste/gallery-1.jpeg",
+        "/images/cars/Dacia Logan Gris  Schiste/gallery-2.jpeg"
+      ],
+      "specs": "Manuelle Modèle 2024 Gris Schiste"
+    },
+    {
+      "id": 5,
+      "name": "Dacia Logan",
+      "brand": "Dacia",
+      "category": "Diesel",
+      "mainImage": "/images/cars/Dacia Logan Gris Schiste/main.jpeg",
+      "gallery": [
+        "/images/cars/Dacia Logan Gris Schiste/gallery-1.jpeg",
+        "/images/cars/Dacia Logan Gris Schiste/gallery-2.jpeg"
+      ],
+      "specs": "Manuelle Modèle 2024 Gris Schiste"
+    },
+    {
+      "id": 6,
+      "name": "Dacia Logan",
+      "brand": "Dacia",
+      "category": "Diesel",
+      "mainImage": "/images/cars/Dacia Logan Blanc Glacier/main.jpeg",
+      "gallery": [
+        "/images/cars/Dacia Logan Blanc Glacier/gallery-1.jpeg",
+        "/images/cars/Dacia Logan Blanc Glacier/gallery-2.jpeg"
+      ],
+      "specs": "Manuelle Modèle 2022 Blanc Glacier"
+    },
+    {
+      "id": 7,
+      "name": "Hyundai Accent",
+      "brand": "Hyundai",
+      "category": "Diesel",
+      "mainImage": "/images/cars/Hyundai Accent Blanc Nacré/main.jpeg",
+      "gallery": [
+        "/images/cars/Hyundai Accent Blanc Nacré/gallery-1.jpeg",
+        "/images/cars/Hyundai Accent Blanc Nacré/gallery-2.jpeg"
+      ],
+      "specs": "Manuelle Modèle 2023 Blanc Nacré"
+    },
+    {
+      "id": 8,
+      "name": "Dacia Sandero Stepway",
+      "brand": "Dacia",
+      "category": "Diesel",
+      "mainImage": "/images/cars/Dacia Sandero Stepway Gris Schiste/main.jpeg",
+      "gallery": [
+        "/images/cars/Dacia Sandero Stepway Gris Schiste/gallery-1.jpeg",
+        "/images/cars/Dacia Sandero Stepway Gris Schiste/gallery-2.jpeg"
+      ],
+      "specs": "Manuelle Modèle 2023 Gris Schiste"
+    },
+    {
+      "id": 9,
+      "name": "Kia Picanto",
+      "brand": "Kia",
+      "category": "Essence",
+      "mainImage": "/images/cars/Kia Picanto Bleu Denim/main.jpeg",
+      "gallery": [
+        "/images/cars/Kia Picanto Bleu Denim/gallery-1.jpeg",
+        "/images/cars/Kia Picanto Bleu Denim/gallery-2.jpeg"
+      ],
+      "specs": "Automatique Modèle 2024 Bleu Denim"
+    },
+    {
+      "id": 10,
+      "name": "Peugeot 208",
+      "brand": "Peugeot",
+      "category": "Diesel",
+      "mainImage": "/images/cars/Peugeot 208 Gris Selenium/main.jpeg",
+      "gallery": [
+        "/images/cars/Peugeot 208 Gris Selenium/gallery-1.jpeg",
+        "/images/cars/Peugeot 208 Gris Selenium/gallery-2.jpeg"
+      ],
+      "specs": "Manuelle Modèle 2023 Gris Selenium"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superior Car - Location de Voiture</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="/images/logo.png" alt="Superior Car" class="logo-img">
+                <span>SUPERIOR CAR</span>
+            </div>
+            <div class="nav-links">
+                <a href="#fleet">Notre Flotte</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>SUPERIOR CAR</h1>
+            <p>Location de Voiture Premium</p>
+            <p class="subtitle">Yassine Al Chaal</p>
+        </div>
+    </header>
+
+    <section id="fleet" class="fleet-section">
+        <div class="fleet-container">
+            <h2>Notre Flotte</h2>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Tous les véhicules</button>
+                <button class="filter-btn" data-filter="Renault">Renault</button>
+                <button class="filter-btn" data-filter="Dacia">Dacia</button>
+                <button class="filter-btn" data-filter="Peugeot">Peugeot</button>
+                <button class="filter-btn" data-filter="Hyundai">Hyundai</button>
+                <button class="filter-btn" data-filter="Kia">Kia</button>
+            </div>
+
+            <div class="cars-grid" id="carsGrid">
+                <% cars.forEach(car => { %>
+                    <div class="car-card" data-category="<%= car.brand %>" data-id="<%= car.id %>">
+                        <div class="car-image">
+                            <img src="<%= car.mainImage %>" alt="<%= car.name %>" onerror="this.src='https://via.placeholder.com/300x200?text=<%= car.name.replace(/\s/g, '+') %>'">
+                            <div class="car-overlay">
+                                <button class="view-btn" data-car-id="<%= car.id %>">Voir Galerie</button>
+                            </div>
+                        </div>
+                        <div class="car-info">
+                            <h3><%= car.name %></h3>
+                            <p class="category"><%= car.category %></p>
+                            <p class="specs"><%= car.specs %></p>
+                            <div class="car-footer">
+                                <span class="price"><%= car.price %></span>
+                            </div>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Gallery -->
+    <div id="galleryModal" class="modal hidden">
+        <div class="modal-content">
+            <button class="close-btn">&times;</button>
+            <div class="modal-body">
+                <div class="main-image-container">
+                    <img id="mainGalleryImage" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <h2 id="carName"></h2>
+                    <p id="carSpecs"></p>
+                    <p id="carPrice"></p>
+                    <div class="gallery-thumbnails">
+                        <img class="thumbnail active" src="" alt="Main" data-index="0">
+                        <img class="thumbnail" src="" alt="Gallery 1" data-index="1">
+                        <img class="thumbnail" src="" alt="Gallery 2" data-index="2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>SUPERIOR CAR</h3>
+                <p>Location de voiture premium</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:yassinalshaal@hotmail.com">yassinalshaal@hotmail.com</a ></p>
+                <p>Tél: <a href="tel:+212666888681">+212 666 888 681</a></p>
+                <p>Fax: +212 528 22 63 26</p>
+                <p>Adresse: <a href="https://www.google.com/maps/search/30.423844471654277, -9.584580230210985" target="_blank" class="address-link">Bloc 2 Hay Sidi Mohamed Agadir</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Horaires</h4>
+                <p>Lun - Ven: 9h - 18h</p>
+                <p>Sam: 10h - 16h</p>
+                <p>Dim: Ferié</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Superior Car. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
