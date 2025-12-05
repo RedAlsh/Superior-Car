@@ -9,7 +9,7 @@ const carsData = [
             "public/images/cars/Clio 5 Gris Schiste/gallery-1.jpeg",
             "public/images/cars/Clio 5 Gris Schiste/gallery-2.jpeg"
         ],
-        "specs": "Modèle 2025 Gris Schiste"
+        "specs": "Automatique Modèle 2025 Gris Schiste"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@ const carsData = [
             "public/images/cars/Clio 5 Bleu Céladon/gallery-1.jpeg",
             "public/images/cars/Clio 5 Bleu Céladon/gallery-2.jpeg"
         ],
-        "specs": "Modèle 2021 Bleu Céladon"
+        "specs": "Manuelle Modèle 2021 Bleu Céladon"
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@ const carsData = [
             "public/images/cars/Clio 5 Bleu Iron/gallery-1.jpeg",
             "public/images/cars/Clio 5 Bleu Iron/gallery-2.jpeg"
         ],
-        "specs": "Modèle 2022 Bleu Iron"
+        "specs": "Manuelle Modèle 2022 Bleu Iron"
     },
     {
         "id": 4,
@@ -45,7 +45,7 @@ const carsData = [
             "public/images/cars/Dacia Logan Gris  Schiste/gallery-1.jpeg",
             "public/images/cars/Dacia Logan Gris  Schiste/gallery-2.jpeg"
         ],
-        "specs": "Modèle 2024 Gris Schiste"
+        "specs": "Manuelle Modèle 2024 Gris Schiste"
     },
     {
         "id": 5,
@@ -57,7 +57,7 @@ const carsData = [
             "public/images/cars/Dacia Logan Gris Schiste/gallery-1.jpeg",
             "public/images/cars/Dacia Logan Gris Schiste/gallery-2.jpeg"
         ],
-        "specs": "Modèle 2024 Gris Schiste"
+        "specs": "Manuelle Modèle 2024 Gris Schiste"
     },
     {
         "id": 6,
@@ -69,7 +69,7 @@ const carsData = [
             "public/images/cars/Dacia Logan Blanc Glacier/gallery-1.jpeg",
             "public/images/cars/Dacia Logan Blanc Glacier/gallery-2.jpeg"
         ],
-        "specs": "Modèle 2022 Blanc Glacier"
+        "specs": "Manuelle Modèle 2022 Blanc Glacier"
     },
     {
         "id": 7,
@@ -81,7 +81,7 @@ const carsData = [
             "public/images/cars/Hyundai Accent Blanc Nacré/gallery-1.jpeg",
             "public/images/cars/Hyundai Accent Blanc Nacré/gallery-2.jpeg"
         ],
-        "specs": "Modèle 2023 Blanc Nacré"
+        "specs": "Manuelle Modèle 2023 Blanc Nacré"
     },
     {
         "id": 8,
@@ -93,7 +93,7 @@ const carsData = [
             "public/images/cars/Dacia Sandero Stepway Gris Schiste/gallery-1.jpeg",
             "public/images/cars/Dacia Sandero Stepway Gris Schiste/gallery-2.jpeg"
         ],
-        "specs": "Modèle 2023 Gris Schiste"
+        "specs": "Manuelle Modèle 2023 Gris Schiste"
     },
     {
         "id": 9,
@@ -105,7 +105,7 @@ const carsData = [
             "public/images/cars/Kia Picanto Bleu Denim/gallery-1.jpeg",
             "public/images/cars/Kia Picanto Bleu Denim/gallery-2.jpeg"
         ],
-        "specs": "Modèle 2024 Bleu Denim"
+        "specs": "Automatique Modèle 2024 Bleu Denim"
     },
     {
         "id": 10,
@@ -117,7 +117,7 @@ const carsData = [
             "public/images/cars/Peugeot 208 Gris Selenium/gallery-1.jpeg",
             "public/images/cars/Peugeot 208 Gris Selenium/gallery-2.jpeg"
         ],
-        "specs": "Modèle 2023 Gris Selenium"
+        "specs": "Manuelle Modèle 2023 Gris Selenium"
     }
 ];
 
