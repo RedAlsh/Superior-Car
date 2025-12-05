@@ -147,7 +147,7 @@ function loadCars(cars) {
             </div>
             <div class="car-info">
                 <h3>${car.name}</h3>
-                <p class="category">${car.brand}</p>
+                <p class="category">${car.category}</p>
                 <p class="specs">${car.specs}</p>
             </div>
         `;
