@@ -1,6 +1,5 @@
 name = "superior-car"
 compatibility_date = "2025-12-05"
 
-[site]
-bucket = "./"
-entry-point = "."
+[assets]
+directory = "./"
